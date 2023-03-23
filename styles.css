@@ -1,0 +1,100 @@
+body {
+    background-color: #FAF9F7;
+}
+
+.nav-logo {
+    width: 14.5vw;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: #333333 !important;
+    height: 20vh;
+    box-shadow: none !important;
+}
+
+ul.left li.nav-content {
+    font-family: "muli", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px !important;
+}
+
+.icons {
+    width: 40vh;
+    height: 6vh !important;
+}
+
+.nav-content:hover {
+    background-color: #555555 !important;
+}
+
+.pfp {
+    border:2px white solid;
+    height: 5vh;
+    margin: 10px; 
+}
+
+.line {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 220px;
+}
+
+.profile {
+    display:flex;
+    align-items: center;
+}
+
+.marge {
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.margey {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.tabs .tab {
+    font-family: 'Open Sans', sans-serif;
+    color: #556370;
+    border-bottom: 1px solid #556370;
+}
+
+.tabs .tab a.active {
+    border-bottom: 2px solid #556370; /* set the color of the line */
+    border-bottom-width: 4px; /* set the thickness of the line */
+}
+
+.tabs:hover {
+    background-color: #556370;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent !important;
+    color: #556370 !important;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardy:hover {
+    -webkit-filter: brightness(70%);
+    transition: all 0s ease;
+}
+
+.marginin {
+    padding: 10px;
+    margin-top: 10vh !important;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
